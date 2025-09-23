@@ -1,0 +1,12 @@
+---
+description: make a plan before implementing any non-trivial code change 
+alwaysApply: true
+---
+
+Always plan before implementing
+
+- Always write a brief plan before coding. Skip only if a plan already exists in context or the task is truly trivial (single, low-risk edit).
+- Frontend: note all affected screens; propose modern, elegant, efficient designs.
+- Backend/Data: list API and model changes; if DB changes are needed, stop and present the schema change for approval before implementing.
+- Tests: add unit tests that fully cover new/changed business logic; ask if integration tests are desired if creating a completely new flow.
+- If the path is clear after planning, execute. If unknowns or multiple good options exist, ask the user to choose.
